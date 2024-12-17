@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void cetakBilangan(int n) {
+void cetakbilangan(int n) {
     for (int i = 1; i <= n; i++) {
         cout << i << " ";
     }
@@ -13,6 +13,6 @@ int main() {
     cout << "Masukkan nilai n: ";
     cin >> n;
     cout << "Bilangan dari 1 hingga " << n << " adalah: ";
-    cetakBilangan(n);
+    cetakbilangan(n);
     return 0;
 }
